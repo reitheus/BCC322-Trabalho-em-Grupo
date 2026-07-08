@@ -1,0 +1,3 @@
+C:\Qt2\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\EpiStock.dir/objects.a
+C:\Qt2\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\EpiStock.dir/objects.a @CMakeFiles\EpiStock.dir\objects1.rsp
+C:\Qt2\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\EpiStock.dir/objects.a -Wl,--no-whole-archive -o EpiStock.exe -Wl,--out-implib,libEpiStock.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\EpiStock.dir\linkLibs.rsp
