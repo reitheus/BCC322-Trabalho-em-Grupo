@@ -1,0 +1,15 @@
+debug/main.o
+debug/test_funcional_fluxo_pedido.o
+debug/test_funcional_interface.o
+debug/loginwindow.o
+debug/mainwindow.o
+debug/pedidowindow.o
+debug/reservawindow.o
+debug/estoqueserviceImpl.o
+debug/pedidoserviceImpl.o
+debug/pedido.o
+debug/produto.o
+debug/moc_loginwindow.o
+debug/moc_mainwindow.o
+debug/moc_pedidowindow.o
+debug/moc_reservawindow.o

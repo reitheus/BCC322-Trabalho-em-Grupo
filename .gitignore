@@ -1,8 +1,5 @@
-.vs/
-*.vcxproj.user
-docs/html
-docs/latex
-docs/html/search
-*.exe
-*.out
-/docs/html/search/functions_1.js
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
