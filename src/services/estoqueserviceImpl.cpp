@@ -63,3 +63,40 @@ EstoqueServiceImpl::reservarEstoque(
 
     return ResultadoReserva::Sucesso;
 }
+bool EstoqueServiceImpl::adicionarEstoque(
+    const QString &produto,
+    int quantidade)
+{
+    if (!quantidadeValida(quantidade))
+        return false;
+
+    Produto *p = buscarProduto(produto);
+
+    if (p == nullptr)
+        return false;
+
+    p->setQuantidade(
+        p->getQuantidade() + quantidade);
+
+    return true;
+}
+QList<Produto> EstoqueServiceImpl::listarProdutos() const
+{
+    return estoque;
+}
+bool EstoqueServiceImpl::cadastrarProduto(const QString &nome,
+                                          int quantidade)
+{
+    if (nome.trimmed().isEmpty())
+        return false;
+
+    if (!quantidadeValida(quantidade))
+        return false;
+
+    if (buscarProduto(nome) != nullptr)
+        return false;
+
+    estoque.append(Produto(nome, quantidade));
+
+    return true;
+}
