@@ -1,5 +1,5 @@
 CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj: \
- C:\EpiStock\src\models\produto.cpp C:\EpiStock\src\models\Produto.h \
+ C:\Epistock2\src\models\produto.cpp C:\Epistock2\src\models\Produto.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/QString \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qstring.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qchar.h \

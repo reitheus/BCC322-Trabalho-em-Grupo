@@ -1,33 +1,38 @@
 EpiStock_autogen/timestamp: \
-	C:/EpiStock/CMakeLists.txt \
-	C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
-	C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qtcreator/cmake-helper/package-manager.cmake \
-	C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake \
-	C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
-	C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
-	C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/moc_predefs.h \
-	C:/EpiStock/main.cpp \
-	C:/EpiStock/src/interfaces/IEstoqueService.h \
-	C:/EpiStock/src/interfaces/ipedidoservice.h \
-	C:/EpiStock/src/models/pedido.cpp \
-	C:/EpiStock/src/models/pedido.h \
-	C:/EpiStock/src/models/produto.cpp \
-	C:/EpiStock/src/models/produto.h \
-	C:/EpiStock/src/models/usuario.cpp \
-	C:/EpiStock/src/models/usuario.h \
-	C:/EpiStock/src/services/estoqueserviceImpl.cpp \
-	C:/EpiStock/src/services/estoqueserviceImpl.h \
-	C:/EpiStock/src/services/pedidoserviceImpl.cpp \
-	C:/EpiStock/src/services/pedidoserviceImpl.h \
-	C:/EpiStock/src/views/loginwindow.cpp \
-	C:/EpiStock/src/views/loginwindow.h \
-	C:/EpiStock/src/views/mainwindow.cpp \
-	C:/EpiStock/src/views/mainwindow.h \
-	C:/EpiStock/src/views/pedidowindow.cpp \
-	C:/EpiStock/src/views/pedidowindow.h \
-	C:/EpiStock/src/views/reservawindow.cpp \
-	C:/EpiStock/src/views/reservawindow.h \
+	C:/Epistock2/CMakeLists.txt \
+	C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
+	C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qtcreator/cmake-helper/package-manager.cmake \
+	C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qtcreator/cmake-helper/qtcreator-project.cmake \
+	C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
+	C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
+	C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/moc_predefs.h \
+	C:/Epistock2/main.cpp \
+	C:/Epistock2/src/interfaces/IEstoqueService.h \
+	C:/Epistock2/src/interfaces/ipedidoservice.h \
+	C:/Epistock2/src/models/pedido.cpp \
+	C:/Epistock2/src/models/pedido.h \
+	C:/Epistock2/src/models/produto.cpp \
+	C:/Epistock2/src/models/produto.h \
+	C:/Epistock2/src/models/usuario.cpp \
+	C:/Epistock2/src/models/usuario.h \
+	C:/Epistock2/src/services/estoqueserviceImpl.cpp \
+	C:/Epistock2/src/services/estoqueserviceImpl.h \
+	C:/Epistock2/src/services/pedidoserviceImpl.cpp \
+	C:/Epistock2/src/services/pedidoserviceImpl.h \
+	C:/Epistock2/src/views/cadastroprodutowindow.cpp \
+	C:/Epistock2/src/views/cadastroprodutowindow.h \
+	C:/Epistock2/src/views/estoquewindow.cpp \
+	C:/Epistock2/src/views/estoquewindow.h \
+	C:/Epistock2/src/views/loginwindow.cpp \
+	C:/Epistock2/src/views/loginwindow.h \
+	C:/Epistock2/src/views/mainwindow.cpp \
+	C:/Epistock2/src/views/mainwindow.h \
+	C:/Epistock2/src/views/pedidowindow.cpp \
+	C:/Epistock2/src/views/pedidowindow.h \
+	C:/Epistock2/src/views/reservawindow.cpp \
+	C:/Epistock2/src/views/reservawindow.h \
+	C:/Qt2/6.11.1/mingw_64/include/QtCore/QList \
 	C:/Qt2/6.11.1/mingw_64/include/QtCore/QString \
 	C:/Qt2/6.11.1/mingw_64/include/QtCore/q17memory.h \
 	C:/Qt2/6.11.1/mingw_64/include/QtCore/q20bit.h \
@@ -183,8 +188,10 @@ EpiStock_autogen/timestamp: \
 	C:/Qt2/6.11.1/mingw_64/include/QtGui/qtransform.h \
 	C:/Qt2/6.11.1/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt2/6.11.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+	C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QDialog \
 	C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
 	C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QWidget \
+	C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qdialog.h \
 	C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h \
 	C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -621,8 +628,10 @@ EpiStock_autogen/timestamp: \
 	C:/Qt2/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	C:/Qt2/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt2/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-	C:/EpiStock/src/views/loginwindow.ui \
-	C:/EpiStock/src/views/mainwindow.ui \
-	C:/EpiStock/src/views/pedidowindow.ui \
-	C:/EpiStock/src/views/reservawindow.ui \
+	C:/Epistock2/src/views/cadastroprodutowindow.ui \
+	C:/Epistock2/src/views/estoquewindow.ui \
+	C:/Epistock2/src/views/loginwindow.ui \
+	C:/Epistock2/src/views/mainwindow.ui \
+	C:/Epistock2/src/views/pedidowindow.ui \
+	C:/Epistock2/src/views/reservawindow.ui \
 	C:/Qt2/Tools/CMake_64/bin/cmake.exe

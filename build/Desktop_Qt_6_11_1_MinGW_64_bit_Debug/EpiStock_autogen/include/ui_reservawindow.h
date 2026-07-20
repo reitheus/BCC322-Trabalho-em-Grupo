@@ -53,6 +53,11 @@ public:
         QTableWidgetItem *__qtablewidgetitem3 = new QTableWidgetItem();
         tableReservas->setHorizontalHeaderItem(3, __qtablewidgetitem3);
         tableReservas->setObjectName("tableReservas");
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(tableReservas->sizePolicy().hasHeightForWidth());
+        tableReservas->setSizePolicy(sizePolicy);
         tableReservas->setEditTriggers(QAbstractItemView::EditTrigger::NoEditTriggers);
         tableReservas->setColumnCount(4);
         tableReservas->horizontalHeader()->setDefaultSectionSize(110);

@@ -1,6 +1,6 @@
 CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj: \
- C:\EpiStock\src\services\estoqueserviceImpl.cpp \
- C:\EpiStock\src\services\EstoqueServiceImpl.h \
+ C:\Epistock2\src\services\estoqueserviceImpl.cpp \
+ C:\Epistock2\src\services\EstoqueServiceImpl.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/QString \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qstring.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qchar.h \
@@ -295,5 +295,6 @@ CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj: \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qalgorithms.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/q20bit.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qstringmatcher.h \
- C:/EpiStock/src/interfaces/IEstoqueService.h \
- C:/EpiStock/src/models/Produto.h
+ C:/Epistock2/src/interfaces/IEstoqueService.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtCore/QList \
+ C:/Epistock2/src/models/produto.h C:/Epistock2/src/models/Produto.h

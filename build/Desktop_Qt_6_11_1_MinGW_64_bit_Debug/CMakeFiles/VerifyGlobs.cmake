@@ -3,199 +3,221 @@
 cmake_policy(SET CMP0009 NEW)
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.c")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.c++")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.c++")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.cc")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.cc")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.ch")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.ch")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.cpp")
 set(OLD_GLOB
-  "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/Z3L7HTGYLD/moc_loginwindow.cpp"
-  "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/Z3L7HTGYLD/moc_mainwindow.cpp"
-  "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/Z3L7HTGYLD/moc_pedidowindow.cpp"
-  "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/Z3L7HTGYLD/moc_reservawindow.cpp"
-  "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/mocs_compilation.cpp"
-  "C:/EpiStock/main.cpp"
-  "C:/EpiStock/src/models/pedido.cpp"
-  "C:/EpiStock/src/models/produto.cpp"
-  "C:/EpiStock/src/models/usuario.cpp"
-  "C:/EpiStock/src/services/estoqueserviceImpl.cpp"
-  "C:/EpiStock/src/services/pedidoserviceImpl.cpp"
-  "C:/EpiStock/src/views/loginwindow.cpp"
-  "C:/EpiStock/src/views/mainwindow.cpp"
-  "C:/EpiStock/src/views/pedidowindow.cpp"
-  "C:/EpiStock/src/views/reservawindow.cpp"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/Z3L7HTGYLD/moc_cadastroprodutowindow.cpp"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/Z3L7HTGYLD/moc_estoquewindow.cpp"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/Z3L7HTGYLD/moc_loginwindow.cpp"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/Z3L7HTGYLD/moc_mainwindow.cpp"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/Z3L7HTGYLD/moc_pedidowindow.cpp"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/Z3L7HTGYLD/moc_reservawindow.cpp"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/mocs_compilation.cpp"
+  "C:/Epistock2/main.cpp"
+  "C:/Epistock2/src/models/pedido.cpp"
+  "C:/Epistock2/src/models/produto.cpp"
+  "C:/Epistock2/src/models/usuario.cpp"
+  "C:/Epistock2/src/services/estoqueserviceImpl.cpp"
+  "C:/Epistock2/src/services/pedidoserviceImpl.cpp"
+  "C:/Epistock2/src/views/cadastroprodutowindow.cpp"
+  "C:/Epistock2/src/views/estoquewindow.cpp"
+  "C:/Epistock2/src/views/loginwindow.cpp"
+  "C:/Epistock2/src/views/mainwindow.cpp"
+  "C:/Epistock2/src/views/pedidowindow.cpp"
+  "C:/Epistock2/src/views/reservawindow.cpp"
+  "C:/Epistock2/tests/functional/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/debug/moc_loginwindow.cpp"
+  "C:/Epistock2/tests/functional/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/debug/moc_mainwindow.cpp"
+  "C:/Epistock2/tests/functional/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/debug/moc_pedidowindow.cpp"
+  "C:/Epistock2/tests/functional/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/debug/moc_reservawindow.cpp"
+  "C:/Epistock2/tests/functional/main.cpp"
+  "C:/Epistock2/tests/functional/test_funcional_fluxo_pedido.cpp"
+  "C:/Epistock2/tests/functional/test_funcional_interface.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.cxx")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.cxx")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.h")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.h")
 set(OLD_GLOB
-  "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/include/ui_loginwindow.h"
-  "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/include/ui_mainwindow.h"
-  "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/include/ui_pedidowindow.h"
-  "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/include/ui_reservawindow.h"
-  "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/moc_predefs.h"
-  "C:/EpiStock/src/interfaces/IEstoqueService.h"
-  "C:/EpiStock/src/interfaces/ipedidoservice.h"
-  "C:/EpiStock/src/models/pedido.h"
-  "C:/EpiStock/src/models/produto.h"
-  "C:/EpiStock/src/models/usuario.h"
-  "C:/EpiStock/src/services/estoqueserviceImpl.h"
-  "C:/EpiStock/src/services/pedidoserviceImpl.h"
-  "C:/EpiStock/src/views/loginwindow.h"
-  "C:/EpiStock/src/views/mainwindow.h"
-  "C:/EpiStock/src/views/pedidowindow.h"
-  "C:/EpiStock/src/views/reservawindow.h"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/include/ui_cadastroprodutowindow.h"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/include/ui_estoquewindow.h"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/include/ui_loginwindow.h"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/include/ui_mainwindow.h"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/include/ui_pedidowindow.h"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/include/ui_reservawindow.h"
+  "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/moc_predefs.h"
+  "C:/Epistock2/src/interfaces/IEstoqueService.h"
+  "C:/Epistock2/src/interfaces/ipedidoservice.h"
+  "C:/Epistock2/src/models/pedido.h"
+  "C:/Epistock2/src/models/produto.h"
+  "C:/Epistock2/src/models/usuario.h"
+  "C:/Epistock2/src/services/estoqueserviceImpl.h"
+  "C:/Epistock2/src/services/pedidoserviceImpl.h"
+  "C:/Epistock2/src/views/cadastroprodutowindow.h"
+  "C:/Epistock2/src/views/estoquewindow.h"
+  "C:/Epistock2/src/views/loginwindow.h"
+  "C:/Epistock2/src/views/mainwindow.h"
+  "C:/Epistock2/src/views/pedidowindow.h"
+  "C:/Epistock2/src/views/reservawindow.h"
+  "C:/Epistock2/tests/functional/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/debug/moc_predefs.h"
+  "C:/Epistock2/tests/functional/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/ui_loginwindow.h"
+  "C:/Epistock2/tests/functional/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/ui_mainwindow.h"
+  "C:/Epistock2/tests/functional/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/ui_pedidowindow.h"
+  "C:/Epistock2/tests/functional/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/ui_reservawindow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.h++")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.h++")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.hh")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.hh")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.hpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.hpp")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.hxx")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.hxx")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.java")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.java")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.js")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.js")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.jui")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.jui")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.qml")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.qml")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.qrc")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.qrc")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.qs")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.qs")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at C:/Qt2/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/EpiStock/*.ui")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Epistock2/*.ui")
 set(OLD_GLOB
-  "C:/EpiStock/src/views/loginwindow.ui"
-  "C:/EpiStock/src/views/mainwindow.ui"
-  "C:/EpiStock/src/views/pedidowindow.ui"
-  "C:/EpiStock/src/views/reservawindow.ui"
+  "C:/Epistock2/src/views/cadastroprodutowindow.ui"
+  "C:/Epistock2/src/views/estoquewindow.ui"
+  "C:/Epistock2/src/views/loginwindow.ui"
+  "C:/Epistock2/src/views/mainwindow.ui"
+  "C:/Epistock2/src/views/pedidowindow.ui"
+  "C:/Epistock2/src/views/reservawindow.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/cmake.verify_globs")
 endif()

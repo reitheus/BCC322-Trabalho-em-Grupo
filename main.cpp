@@ -23,7 +23,8 @@ int main(int argc, char *argv[])
 
     IPedidoService *pedidoService =
         new PedidoServiceImpl(estoqueService);
-    LoginWindow w(pedidoService);
+    LoginWindow w(pedidoService,
+                  estoqueService);
     w.show();
     return QApplication::exec();
 }

@@ -52,10 +52,10 @@ RM = C:\Qt2\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\EpiStock
+CMAKE_SOURCE_DIR = C:\Epistock2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug
+CMAKE_BINARY_DIR = C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/EpiStock.dir/depend.make
@@ -71,174 +71,204 @@ include CMakeFiles/EpiStock.dir/flags.make
 EpiStock_autogen/timestamp: C:/Qt2/6.11.1/mingw_64/bin/moc.exe
 EpiStock_autogen/timestamp: C:/Qt2/6.11.1/mingw_64/bin/uic.exe
 EpiStock_autogen/timestamp: CMakeFiles/EpiStock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target EpiStock"
-	C:\Qt2\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/EpiStock_autogen.dir/AutogenInfo.json Debug
-	C:\Qt2\Tools\CMake_64\bin\cmake.exe -E touch C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target EpiStock"
+	C:\Qt2\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/EpiStock_autogen.dir/AutogenInfo.json Debug
+	C:\Qt2\Tools\CMake_64\bin\cmake.exe -E touch C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/timestamp
 
 CMakeFiles/EpiStock.dir/EpiStock_autogen/mocs_compilation.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
 CMakeFiles/EpiStock.dir/EpiStock_autogen/mocs_compilation.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
 CMakeFiles/EpiStock.dir/EpiStock_autogen/mocs_compilation.cpp.obj: EpiStock_autogen/mocs_compilation.cpp
 CMakeFiles/EpiStock.dir/EpiStock_autogen/mocs_compilation.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EpiStock.dir/EpiStock_autogen/mocs_compilation.cpp.obj"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/EpiStock_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\EpiStock.dir\EpiStock_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\EpiStock.dir\EpiStock_autogen\mocs_compilation.cpp.obj -c C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\EpiStock_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EpiStock.dir/EpiStock_autogen/mocs_compilation.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/EpiStock_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\EpiStock.dir\EpiStock_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\EpiStock.dir\EpiStock_autogen\mocs_compilation.cpp.obj -c C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\EpiStock_autogen\mocs_compilation.cpp
 
 CMakeFiles/EpiStock.dir/EpiStock_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/EpiStock_autogen/mocs_compilation.cpp.i"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\EpiStock_autogen\mocs_compilation.cpp > CMakeFiles\EpiStock.dir\EpiStock_autogen\mocs_compilation.cpp.i
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\EpiStock_autogen\mocs_compilation.cpp > CMakeFiles\EpiStock.dir\EpiStock_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/EpiStock.dir/EpiStock_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/EpiStock_autogen/mocs_compilation.cpp.s"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\EpiStock_autogen\mocs_compilation.cpp -o CMakeFiles\EpiStock.dir\EpiStock_autogen\mocs_compilation.cpp.s
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\EpiStock_autogen\mocs_compilation.cpp -o CMakeFiles\EpiStock.dir\EpiStock_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/EpiStock.dir/main.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
 CMakeFiles/EpiStock.dir/main.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
-CMakeFiles/EpiStock.dir/main.cpp.obj: C:/EpiStock/main.cpp
+CMakeFiles/EpiStock.dir/main.cpp.obj: C:/Epistock2/main.cpp
 CMakeFiles/EpiStock.dir/main.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EpiStock.dir/main.cpp.obj"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/main.cpp.obj -MF CMakeFiles\EpiStock.dir\main.cpp.obj.d -o CMakeFiles\EpiStock.dir\main.cpp.obj -c C:\EpiStock\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EpiStock.dir/main.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/main.cpp.obj -MF CMakeFiles\EpiStock.dir\main.cpp.obj.d -o CMakeFiles\EpiStock.dir\main.cpp.obj -c C:\Epistock2\main.cpp
 
 CMakeFiles/EpiStock.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/main.cpp.i"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\EpiStock\main.cpp > CMakeFiles\EpiStock.dir\main.cpp.i
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\main.cpp > CMakeFiles\EpiStock.dir\main.cpp.i
 
 CMakeFiles/EpiStock.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/main.cpp.s"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\EpiStock\main.cpp -o CMakeFiles\EpiStock.dir\main.cpp.s
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\main.cpp -o CMakeFiles\EpiStock.dir\main.cpp.s
 
 CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
 CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
-CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.obj: C:/EpiStock/src/views/mainwindow.cpp
+CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.obj: C:/Epistock2/src/views/mainwindow.cpp
 CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.obj"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.obj -MF CMakeFiles\EpiStock.dir\src\views\mainwindow.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\views\mainwindow.cpp.obj -c C:\EpiStock\src\views\mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.obj -MF CMakeFiles\EpiStock.dir\src\views\mainwindow.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\views\mainwindow.cpp.obj -c C:\Epistock2\src\views\mainwindow.cpp
 
 CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.i"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\EpiStock\src\views\mainwindow.cpp > CMakeFiles\EpiStock.dir\src\views\mainwindow.cpp.i
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\src\views\mainwindow.cpp > CMakeFiles\EpiStock.dir\src\views\mainwindow.cpp.i
 
 CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.s"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\EpiStock\src\views\mainwindow.cpp -o CMakeFiles\EpiStock.dir\src\views\mainwindow.cpp.s
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\src\views\mainwindow.cpp -o CMakeFiles\EpiStock.dir\src\views\mainwindow.cpp.s
 
 CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
 CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
-CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.obj: C:/EpiStock/src/views/loginwindow.cpp
+CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.obj: C:/Epistock2/src/views/loginwindow.cpp
 CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.obj"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.obj -MF CMakeFiles\EpiStock.dir\src\views\loginwindow.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\views\loginwindow.cpp.obj -c C:\EpiStock\src\views\loginwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.obj -MF CMakeFiles\EpiStock.dir\src\views\loginwindow.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\views\loginwindow.cpp.obj -c C:\Epistock2\src\views\loginwindow.cpp
 
 CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.i"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\EpiStock\src\views\loginwindow.cpp > CMakeFiles\EpiStock.dir\src\views\loginwindow.cpp.i
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\src\views\loginwindow.cpp > CMakeFiles\EpiStock.dir\src\views\loginwindow.cpp.i
 
 CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.s"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\EpiStock\src\views\loginwindow.cpp -o CMakeFiles\EpiStock.dir\src\views\loginwindow.cpp.s
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\src\views\loginwindow.cpp -o CMakeFiles\EpiStock.dir\src\views\loginwindow.cpp.s
 
 CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
 CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
-CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj: C:/EpiStock/src/views/pedidowindow.cpp
+CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj: C:/Epistock2/src/views/pedidowindow.cpp
 CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj -MF CMakeFiles\EpiStock.dir\src\views\pedidowindow.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\views\pedidowindow.cpp.obj -c C:\EpiStock\src\views\pedidowindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj -MF CMakeFiles\EpiStock.dir\src\views\pedidowindow.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\views\pedidowindow.cpp.obj -c C:\Epistock2\src\views\pedidowindow.cpp
 
 CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.i"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\EpiStock\src\views\pedidowindow.cpp > CMakeFiles\EpiStock.dir\src\views\pedidowindow.cpp.i
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\src\views\pedidowindow.cpp > CMakeFiles\EpiStock.dir\src\views\pedidowindow.cpp.i
 
 CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.s"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\EpiStock\src\views\pedidowindow.cpp -o CMakeFiles\EpiStock.dir\src\views\pedidowindow.cpp.s
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\src\views\pedidowindow.cpp -o CMakeFiles\EpiStock.dir\src\views\pedidowindow.cpp.s
 
-CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
-CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
-CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj: C:/EpiStock/src/models/produto.cpp
-CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj -MF CMakeFiles\EpiStock.dir\src\models\produto.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\models\produto.cpp.obj -c C:\EpiStock\src\models\produto.cpp
+CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
+CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
+CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.obj: C:/Epistock2/src/views/estoquewindow.cpp
+CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.obj -MF CMakeFiles\EpiStock.dir\src\views\estoquewindow.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\views\estoquewindow.cpp.obj -c C:\Epistock2\src\views\estoquewindow.cpp
 
-CMakeFiles/EpiStock.dir/src/models/produto.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/models/produto.cpp.i"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\EpiStock\src\models\produto.cpp > CMakeFiles\EpiStock.dir\src\models\produto.cpp.i
+CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.i"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\src\views\estoquewindow.cpp > CMakeFiles\EpiStock.dir\src\views\estoquewindow.cpp.i
 
-CMakeFiles/EpiStock.dir/src/models/produto.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/models/produto.cpp.s"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\EpiStock\src\models\produto.cpp -o CMakeFiles\EpiStock.dir\src\models\produto.cpp.s
-
-CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
-CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
-CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj: C:/EpiStock/src/models/pedido.cpp
-CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj -MF CMakeFiles\EpiStock.dir\src\models\pedido.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\models\pedido.cpp.obj -c C:\EpiStock\src\models\pedido.cpp
-
-CMakeFiles/EpiStock.dir/src/models/pedido.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/models/pedido.cpp.i"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\EpiStock\src\models\pedido.cpp > CMakeFiles\EpiStock.dir\src\models\pedido.cpp.i
-
-CMakeFiles/EpiStock.dir/src/models/pedido.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/models/pedido.cpp.s"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\EpiStock\src\models\pedido.cpp -o CMakeFiles\EpiStock.dir\src\models\pedido.cpp.s
-
-CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
-CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
-CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj: C:/EpiStock/src/models/usuario.cpp
-CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj -MF CMakeFiles\EpiStock.dir\src\models\usuario.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\models\usuario.cpp.obj -c C:\EpiStock\src\models\usuario.cpp
-
-CMakeFiles/EpiStock.dir/src/models/usuario.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/models/usuario.cpp.i"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\EpiStock\src\models\usuario.cpp > CMakeFiles\EpiStock.dir\src\models\usuario.cpp.i
-
-CMakeFiles/EpiStock.dir/src/models/usuario.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/models/usuario.cpp.s"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\EpiStock\src\models\usuario.cpp -o CMakeFiles\EpiStock.dir\src\models\usuario.cpp.s
-
-CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
-CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
-CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj: C:/EpiStock/src/services/estoqueserviceImpl.cpp
-CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj -MF CMakeFiles\EpiStock.dir\src\services\estoqueserviceImpl.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\services\estoqueserviceImpl.cpp.obj -c C:\EpiStock\src\services\estoqueserviceImpl.cpp
-
-CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.i"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\EpiStock\src\services\estoqueserviceImpl.cpp > CMakeFiles\EpiStock.dir\src\services\estoqueserviceImpl.cpp.i
-
-CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.s"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\EpiStock\src\services\estoqueserviceImpl.cpp -o CMakeFiles\EpiStock.dir\src\services\estoqueserviceImpl.cpp.s
-
-CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
-CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
-CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj: C:/EpiStock/src/services/pedidoserviceImpl.cpp
-CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj -MF CMakeFiles\EpiStock.dir\src\services\pedidoserviceImpl.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\services\pedidoserviceImpl.cpp.obj -c C:\EpiStock\src\services\pedidoserviceImpl.cpp
-
-CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.i"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\EpiStock\src\services\pedidoserviceImpl.cpp > CMakeFiles\EpiStock.dir\src\services\pedidoserviceImpl.cpp.i
-
-CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.s"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\EpiStock\src\services\pedidoserviceImpl.cpp -o CMakeFiles\EpiStock.dir\src\services\pedidoserviceImpl.cpp.s
+CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.s"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\src\views\estoquewindow.cpp -o CMakeFiles\EpiStock.dir\src\views\estoquewindow.cpp.s
 
 CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
 CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
-CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj: C:/EpiStock/src/views/reservawindow.cpp
+CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj: C:/Epistock2/src/views/reservawindow.cpp
 CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj -MF CMakeFiles\EpiStock.dir\src\views\reservawindow.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\views\reservawindow.cpp.obj -c C:\EpiStock\src\views\reservawindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj -MF CMakeFiles\EpiStock.dir\src\views\reservawindow.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\views\reservawindow.cpp.obj -c C:\Epistock2\src\views\reservawindow.cpp
 
 CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.i"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\EpiStock\src\views\reservawindow.cpp > CMakeFiles\EpiStock.dir\src\views\reservawindow.cpp.i
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\src\views\reservawindow.cpp > CMakeFiles\EpiStock.dir\src\views\reservawindow.cpp.i
 
 CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.s"
-	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\EpiStock\src\views\reservawindow.cpp -o CMakeFiles\EpiStock.dir\src\views\reservawindow.cpp.s
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\src\views\reservawindow.cpp -o CMakeFiles\EpiStock.dir\src\views\reservawindow.cpp.s
+
+CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
+CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
+CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj: C:/Epistock2/src/models/produto.cpp
+CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj -MF CMakeFiles\EpiStock.dir\src\models\produto.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\models\produto.cpp.obj -c C:\Epistock2\src\models\produto.cpp
+
+CMakeFiles/EpiStock.dir/src/models/produto.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/models/produto.cpp.i"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\src\models\produto.cpp > CMakeFiles\EpiStock.dir\src\models\produto.cpp.i
+
+CMakeFiles/EpiStock.dir/src/models/produto.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/models/produto.cpp.s"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\src\models\produto.cpp -o CMakeFiles\EpiStock.dir\src\models\produto.cpp.s
+
+CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
+CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
+CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj: C:/Epistock2/src/models/pedido.cpp
+CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj -MF CMakeFiles\EpiStock.dir\src\models\pedido.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\models\pedido.cpp.obj -c C:\Epistock2\src\models\pedido.cpp
+
+CMakeFiles/EpiStock.dir/src/models/pedido.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/models/pedido.cpp.i"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\src\models\pedido.cpp > CMakeFiles\EpiStock.dir\src\models\pedido.cpp.i
+
+CMakeFiles/EpiStock.dir/src/models/pedido.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/models/pedido.cpp.s"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\src\models\pedido.cpp -o CMakeFiles\EpiStock.dir\src\models\pedido.cpp.s
+
+CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
+CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
+CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj: C:/Epistock2/src/models/usuario.cpp
+CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj -MF CMakeFiles\EpiStock.dir\src\models\usuario.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\models\usuario.cpp.obj -c C:\Epistock2\src\models\usuario.cpp
+
+CMakeFiles/EpiStock.dir/src/models/usuario.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/models/usuario.cpp.i"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\src\models\usuario.cpp > CMakeFiles\EpiStock.dir\src\models\usuario.cpp.i
+
+CMakeFiles/EpiStock.dir/src/models/usuario.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/models/usuario.cpp.s"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\src\models\usuario.cpp -o CMakeFiles\EpiStock.dir\src\models\usuario.cpp.s
+
+CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
+CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
+CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj: C:/Epistock2/src/services/estoqueserviceImpl.cpp
+CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj -MF CMakeFiles\EpiStock.dir\src\services\estoqueserviceImpl.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\services\estoqueserviceImpl.cpp.obj -c C:\Epistock2\src\services\estoqueserviceImpl.cpp
+
+CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.i"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\src\services\estoqueserviceImpl.cpp > CMakeFiles\EpiStock.dir\src\services\estoqueserviceImpl.cpp.i
+
+CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.s"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\src\services\estoqueserviceImpl.cpp -o CMakeFiles\EpiStock.dir\src\services\estoqueserviceImpl.cpp.s
+
+CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
+CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
+CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj: C:/Epistock2/src/services/pedidoserviceImpl.cpp
+CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj -MF CMakeFiles\EpiStock.dir\src\services\pedidoserviceImpl.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\services\pedidoserviceImpl.cpp.obj -c C:\Epistock2\src\services\pedidoserviceImpl.cpp
+
+CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.i"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\src\services\pedidoserviceImpl.cpp > CMakeFiles\EpiStock.dir\src\services\pedidoserviceImpl.cpp.i
+
+CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.s"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\src\services\pedidoserviceImpl.cpp -o CMakeFiles\EpiStock.dir\src\services\pedidoserviceImpl.cpp.s
+
+CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.obj: CMakeFiles/EpiStock.dir/flags.make
+CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.obj: CMakeFiles/EpiStock.dir/includes_CXX.rsp
+CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.obj: C:/Epistock2/src/views/cadastroprodutowindow.cpp
+CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.obj: CMakeFiles/EpiStock.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.obj"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.obj -MF CMakeFiles\EpiStock.dir\src\views\cadastroprodutowindow.cpp.obj.d -o CMakeFiles\EpiStock.dir\src\views\cadastroprodutowindow.cpp.obj -c C:\Epistock2\src\views\cadastroprodutowindow.cpp
+
+CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.i"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Epistock2\src\views\cadastroprodutowindow.cpp > CMakeFiles\EpiStock.dir\src\views\cadastroprodutowindow.cpp.i
+
+CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.s"
+	C:\Qt2\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Epistock2\src\views\cadastroprodutowindow.cpp -o CMakeFiles\EpiStock.dir\src\views\cadastroprodutowindow.cpp.s
 
 # Object files for target EpiStock
 EpiStock_OBJECTS = \
@@ -247,12 +277,14 @@ EpiStock_OBJECTS = \
 "CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.obj" \
 "CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.obj" \
 "CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj" \
+"CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.obj" \
+"CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj" \
 "CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj" \
 "CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj" \
 "CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj" \
 "CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj" \
 "CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj" \
-"CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj"
+"CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.obj"
 
 # External object files for target EpiStock
 EpiStock_EXTERNAL_OBJECTS =
@@ -262,12 +294,14 @@ EpiStock.exe: CMakeFiles/EpiStock.dir/main.cpp.obj
 EpiStock.exe: CMakeFiles/EpiStock.dir/src/views/mainwindow.cpp.obj
 EpiStock.exe: CMakeFiles/EpiStock.dir/src/views/loginwindow.cpp.obj
 EpiStock.exe: CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj
+EpiStock.exe: CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.obj
+EpiStock.exe: CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj
 EpiStock.exe: CMakeFiles/EpiStock.dir/src/models/produto.cpp.obj
 EpiStock.exe: CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj
 EpiStock.exe: CMakeFiles/EpiStock.dir/src/models/usuario.cpp.obj
 EpiStock.exe: CMakeFiles/EpiStock.dir/src/services/estoqueserviceImpl.cpp.obj
 EpiStock.exe: CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.obj
-EpiStock.exe: CMakeFiles/EpiStock.dir/src/views/reservawindow.cpp.obj
+EpiStock.exe: CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.obj
 EpiStock.exe: CMakeFiles/EpiStock.dir/build.make
 EpiStock.exe: C:/Qt2/6.11.1/mingw_64/lib/libQt6Widgets.a
 EpiStock.exe: C:/Qt2/6.11.1/mingw_64/lib/libQt6Gui.a
@@ -277,7 +311,7 @@ EpiStock.exe: EpiStock.exe.manifest
 EpiStock.exe: CMakeFiles/EpiStock.dir/linkLibs.rsp
 EpiStock.exe: CMakeFiles/EpiStock.dir/objects1.rsp
 EpiStock.exe: CMakeFiles/EpiStock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable EpiStock.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable EpiStock.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\EpiStock.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -289,6 +323,6 @@ CMakeFiles/EpiStock.dir/clean:
 .PHONY : CMakeFiles/EpiStock.dir/clean
 
 CMakeFiles/EpiStock.dir/depend: EpiStock_autogen/timestamp
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\EpiStock C:\EpiStock C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\EpiStock.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Epistock2 C:\Epistock2 C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\EpiStock.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/EpiStock.dir/depend
 
