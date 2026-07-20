@@ -56,10 +56,10 @@ RM = C:\Qt2\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\EpiStock
+CMAKE_SOURCE_DIR = C:\Epistock2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug
+CMAKE_BINARY_DIR = C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -157,7 +157,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
@@ -368,6 +368,54 @@ src/services/pedidoserviceImpl.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\EpiStock.dir\build.make CMakeFiles/EpiStock.dir/src/services/pedidoserviceImpl.cpp.s
 .PHONY : src/services/pedidoserviceImpl.cpp.s
 
+src/views/cadastroprodutowindow.obj: src/views/cadastroprodutowindow.cpp.obj
+.PHONY : src/views/cadastroprodutowindow.obj
+
+# target to build an object file
+src/views/cadastroprodutowindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EpiStock.dir\build.make CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.obj
+.PHONY : src/views/cadastroprodutowindow.cpp.obj
+
+src/views/cadastroprodutowindow.i: src/views/cadastroprodutowindow.cpp.i
+.PHONY : src/views/cadastroprodutowindow.i
+
+# target to preprocess a source file
+src/views/cadastroprodutowindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EpiStock.dir\build.make CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.i
+.PHONY : src/views/cadastroprodutowindow.cpp.i
+
+src/views/cadastroprodutowindow.s: src/views/cadastroprodutowindow.cpp.s
+.PHONY : src/views/cadastroprodutowindow.s
+
+# target to generate assembly for a file
+src/views/cadastroprodutowindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EpiStock.dir\build.make CMakeFiles/EpiStock.dir/src/views/cadastroprodutowindow.cpp.s
+.PHONY : src/views/cadastroprodutowindow.cpp.s
+
+src/views/estoquewindow.obj: src/views/estoquewindow.cpp.obj
+.PHONY : src/views/estoquewindow.obj
+
+# target to build an object file
+src/views/estoquewindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EpiStock.dir\build.make CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.obj
+.PHONY : src/views/estoquewindow.cpp.obj
+
+src/views/estoquewindow.i: src/views/estoquewindow.cpp.i
+.PHONY : src/views/estoquewindow.i
+
+# target to preprocess a source file
+src/views/estoquewindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EpiStock.dir\build.make CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.i
+.PHONY : src/views/estoquewindow.cpp.i
+
+src/views/estoquewindow.s: src/views/estoquewindow.cpp.s
+.PHONY : src/views/estoquewindow.s
+
+# target to generate assembly for a file
+src/views/estoquewindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\EpiStock.dir\build.make CMakeFiles/EpiStock.dir/src/views/estoquewindow.cpp.s
+.PHONY : src/views/estoquewindow.cpp.s
+
 src/views/loginwindow.obj: src/views/loginwindow.cpp.obj
 .PHONY : src/views/loginwindow.obj
 
@@ -500,6 +548,12 @@ help:
 	@echo ... src/services/pedidoserviceImpl.obj
 	@echo ... src/services/pedidoserviceImpl.i
 	@echo ... src/services/pedidoserviceImpl.s
+	@echo ... src/views/cadastroprodutowindow.obj
+	@echo ... src/views/cadastroprodutowindow.i
+	@echo ... src/views/cadastroprodutowindow.s
+	@echo ... src/views/estoquewindow.obj
+	@echo ... src/views/estoquewindow.i
+	@echo ... src/views/estoquewindow.s
 	@echo ... src/views/loginwindow.obj
 	@echo ... src/views/loginwindow.i
 	@echo ... src/views/loginwindow.s
@@ -523,7 +577,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

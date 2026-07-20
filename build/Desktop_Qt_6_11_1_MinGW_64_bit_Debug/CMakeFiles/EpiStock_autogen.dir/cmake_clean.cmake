@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EpiStock_autogen"
+  "EpiStock_autogen/include/src/views/ui_cadastroprodutowindow.h"
+  "EpiStock_autogen/include/src/views/ui_estoquewindow.h"
   "EpiStock_autogen/include/src/views/ui_loginwindow.h"
   "EpiStock_autogen/include/src/views/ui_mainwindow.h"
   "EpiStock_autogen/include/src/views/ui_pedidowindow.h"

@@ -52,10 +52,10 @@ RM = C:\Qt2\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\EpiStock
+CMAKE_SOURCE_DIR = C:\Epistock2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug
+CMAKE_BINARY_DIR = C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug
 
 # Utility rule file for EpiStock_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/EpiStock_autogen: EpiStock_autogen/timestamp
 EpiStock_autogen/timestamp: C:/Qt2/6.11.1/mingw_64/bin/moc.exe
 EpiStock_autogen/timestamp: C:/Qt2/6.11.1/mingw_64/bin/uic.exe
 EpiStock_autogen/timestamp: CMakeFiles/EpiStock_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target EpiStock"
-	C:\Qt2\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/EpiStock_autogen.dir/AutogenInfo.json Debug
-	C:\Qt2\Tools\CMake_64\bin\cmake.exe -E touch C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target EpiStock"
+	C:\Qt2\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/EpiStock_autogen.dir/AutogenInfo.json Debug
+	C:\Qt2\Tools\CMake_64\bin\cmake.exe -E touch C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/timestamp
 
 EpiStock_autogen: CMakeFiles/EpiStock_autogen
 EpiStock_autogen: EpiStock_autogen/timestamp
@@ -88,6 +88,6 @@ CMakeFiles/EpiStock_autogen.dir/clean:
 .PHONY : CMakeFiles/EpiStock_autogen.dir/clean
 
 CMakeFiles/EpiStock_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\EpiStock C:\EpiStock C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\EpiStock_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Epistock2 C:\Epistock2 C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\EpiStock_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/EpiStock_autogen.dir/depend
 

@@ -1,5 +1,5 @@
-CMakeFiles/EpiStock.dir/main.cpp.obj: C:\EpiStock\main.cpp \
- C:/EpiStock/src/services/EstoqueServiceImpl.h \
+CMakeFiles/EpiStock.dir/main.cpp.obj: C:\Epistock2\main.cpp \
+ C:/Epistock2/src/services/EstoqueServiceImpl.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/QString \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qstring.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qchar.h \
@@ -294,11 +294,12 @@ CMakeFiles/EpiStock.dir/main.cpp.obj: C:\EpiStock\main.cpp \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qalgorithms.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/q20bit.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qstringmatcher.h \
- C:/EpiStock/src/interfaces/IEstoqueService.h \
- C:/EpiStock/src/models/Produto.h \
- C:/EpiStock/src/services/PedidoServiceImpl.h \
- C:/EpiStock/src/interfaces/IPedidoService.h \
- C:/EpiStock/src/models/Pedido.h C:/EpiStock/src/views/loginwindow.h \
+ C:/Epistock2/src/interfaces/IEstoqueService.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtCore/QList \
+ C:/Epistock2/src/models/produto.h C:/Epistock2/src/models/Produto.h \
+ C:/Epistock2/src/services/PedidoServiceImpl.h \
+ C:/Epistock2/src/interfaces/IPedidoService.h \
+ C:/Epistock2/src/models/Pedido.h C:/Epistock2/src/views/loginwindow.h \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \

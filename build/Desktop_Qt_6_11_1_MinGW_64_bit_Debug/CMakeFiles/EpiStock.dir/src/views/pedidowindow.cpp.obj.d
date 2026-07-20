@@ -1,7 +1,7 @@
 CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj: \
- C:\EpiStock\src\views\pedidowindow.cpp \
- C:\EpiStock\src\views\pedidowindow.h \
- C:/EpiStock/src/interfaces/IPedidoService.h \
+ C:\Epistock2\src\views\pedidowindow.cpp \
+ C:\Epistock2\src\views\pedidowindow.h \
+ C:/Epistock2/src/interfaces/IPedidoService.h \
  C:/Qt2/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
  C:/Qt2/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Qt2/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -62,7 +62,7 @@ CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj: \
  C:/Qt2/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
  C:/Qt2/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
  C:/Qt2/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
- C:/EpiStock/src/models/Pedido.h \
+ C:/Epistock2/src/models/Pedido.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/QString \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qstring.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qchar.h \
@@ -284,6 +284,20 @@ CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj: \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qstringbuilder.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qstringconverter.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qstringconverter_base.h \
+ C:/Epistock2/src/interfaces/IEstoqueService.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtCore/QList \
+ C:/Qt2/6.11.1/mingw_64/include/QtCore/qlist.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtCore/qhashfunctions.h \
+ C:/Qt2/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
+ C:/Qt2/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h \
+ C:/Qt2/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtCore/qiterator.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtCore/qbytearraylist.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtCore/qstringlist.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtCore/qalgorithms.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtCore/q20bit.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtCore/qstringmatcher.h \
+ C:/Epistock2/src/models/produto.h \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -298,17 +312,6 @@ CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj: \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qfunctionaltools_impl.h \
  C:/Qt2/6.11.1/mingw_64/include/QtGui/qwindowdefs_win.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qobject.h \
- C:/Qt2/6.11.1/mingw_64/include/QtCore/qlist.h \
- C:/Qt2/6.11.1/mingw_64/include/QtCore/qhashfunctions.h \
- C:/Qt2/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
- C:/Qt2/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h \
- C:/Qt2/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
- C:/Qt2/6.11.1/mingw_64/include/QtCore/qiterator.h \
- C:/Qt2/6.11.1/mingw_64/include/QtCore/qbytearraylist.h \
- C:/Qt2/6.11.1/mingw_64/include/QtCore/qstringlist.h \
- C:/Qt2/6.11.1/mingw_64/include/QtCore/qalgorithms.h \
- C:/Qt2/6.11.1/mingw_64/include/QtCore/q20bit.h \
- C:/Qt2/6.11.1/mingw_64/include/QtCore/qstringmatcher.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qscopedpointer.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qmetatype.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qdatastream.h \
@@ -387,7 +390,7 @@ CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj: \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt2/6.11.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt2/6.11.1/mingw_64/include/QtGui/qbitmap.h \
- C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/include/ui_pedidowindow.h \
+ C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/include/ui_pedidowindow.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/QVariant \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QApplication \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qapplication.h \
@@ -425,6 +428,7 @@ CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj: \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qlayoutitem.h \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QGridLayout \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QHBoxLayout \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QHeaderView \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qheaderview.h \
@@ -446,18 +450,21 @@ CMakeFiles/EpiStock.dir/src/views/pedidowindow.cpp.obj: \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QPushButton \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QSpacerItem \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QSpinBox \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qspinbox.h \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QTableWidget \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qtablewidget.h \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qtableview.h \
- C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QVBoxLayout \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QWidget \
- C:/EpiStock/src/services/pedidoserviceImpl.h \
- C:/EpiStock/src/interfaces/IEstoqueService.h \
- C:\EpiStock\src\views\reservawindow.h \
+ C:/Epistock2/src/services/pedidoserviceImpl.h \
+ C:\Epistock2\src\views\reservawindow.h \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QMessageBox \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qmessagebox.h \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
- C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QHeaderView
+ C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QHeaderView \
+ C:/Qt2/6.11.1/mingw_64/include/QtCore/QDebug \
+ C:\Epistock2\src\views\mainwindow.h \
+ C:/Qt2/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
+ C:/Qt2/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h

@@ -1,7 +1,10 @@
-C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/Z3L7HTGYLD/moc_reservawindow.cpp: C:/EpiStock/src/views/reservawindow.h \
-  C:/EpiStock/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/moc_predefs.h \
-  C:/EpiStock/src/interfaces/IPedidoService.h \
-  C:/EpiStock/src/models/Pedido.h \
+C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/Z3L7HTGYLD/moc_reservawindow.cpp: C:/Epistock2/src/views/reservawindow.h \
+  C:/Epistock2/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/EpiStock_autogen/moc_predefs.h \
+  C:/Epistock2/src/interfaces/IEstoqueService.h \
+  C:/Epistock2/src/interfaces/IPedidoService.h \
+  C:/Epistock2/src/models/Pedido.h \
+  C:/Epistock2/src/models/produto.h \
+  C:/Qt2/6.11.1/mingw_64/include/QtCore/QList \
   C:/Qt2/6.11.1/mingw_64/include/QtCore/QString \
   C:/Qt2/6.11.1/mingw_64/include/QtCore/q17memory.h \
   C:/Qt2/6.11.1/mingw_64/include/QtCore/q20bit.h \

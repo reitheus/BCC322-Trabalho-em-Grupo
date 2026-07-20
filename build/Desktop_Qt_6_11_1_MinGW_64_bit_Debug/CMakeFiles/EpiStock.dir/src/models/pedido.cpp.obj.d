@@ -1,5 +1,5 @@
 CMakeFiles/EpiStock.dir/src/models/pedido.cpp.obj: \
- C:\EpiStock\src\models\pedido.cpp C:\EpiStock\src\models\Pedido.h \
+ C:\Epistock2\src\models\pedido.cpp C:\Epistock2\src\models\Pedido.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/QString \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qstring.h \
  C:/Qt2/6.11.1/mingw_64/include/QtCore/qchar.h \

@@ -13,14 +13,15 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QFormLayout>
+#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QSpinBox>
 #include <QtWidgets/QTableWidget>
-#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -28,7 +29,7 @@ QT_BEGIN_NAMESPACE
 class Ui_PedidoWindow
 {
 public:
-    QVBoxLayout *verticalLayout;
+    QGridLayout *gridLayout;
     QFormLayout *formLayout;
     QLabel *Cliente;
     QLineEdit *txtCliente;
@@ -50,14 +51,16 @@ public:
     QHBoxLayout *horizontalLayout_4;
     QPushButton *btnRemover;
     QPushButton *btnReservar;
+    QSpacerItem *horizontalSpacer;
+    QPushButton *btnVoltar;
 
     void setupUi(QWidget *PedidoWindow)
     {
         if (PedidoWindow->objectName().isEmpty())
             PedidoWindow->setObjectName("PedidoWindow");
         PedidoWindow->resize(541, 429);
-        verticalLayout = new QVBoxLayout(PedidoWindow);
-        verticalLayout->setObjectName("verticalLayout");
+        gridLayout = new QGridLayout(PedidoWindow);
+        gridLayout->setObjectName("gridLayout");
         formLayout = new QFormLayout();
         formLayout->setObjectName("formLayout");
         Cliente = new QLabel(PedidoWindow);
@@ -76,11 +79,6 @@ public:
         formLayout->setWidget(3, QFormLayout::ItemRole::LabelRole, txtproduto_2);
 
         comboProduto = new QComboBox(PedidoWindow);
-        comboProduto->addItem(QString());
-        comboProduto->addItem(QString());
-        comboProduto->addItem(QString());
-        comboProduto->addItem(QString());
-        comboProduto->addItem(QString());
         comboProduto->setObjectName("comboProduto");
 
         formLayout->setWidget(3, QFormLayout::ItemRole::FieldRole, comboProduto);
@@ -108,7 +106,7 @@ public:
         formLayout->setWidget(0, QFormLayout::ItemRole::FieldRole, lblTitulo);
 
 
-        verticalLayout->addLayout(formLayout);
+        gridLayout->addLayout(formLayout, 0, 0, 1, 1);
 
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName("horizontalLayout");
@@ -129,7 +127,7 @@ public:
         horizontalLayout->addWidget(btnAdicionar);
 
 
-        verticalLayout->addLayout(horizontalLayout);
+        gridLayout->addLayout(horizontalLayout, 1, 0, 1, 1);
 
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName("horizontalLayout_2");
@@ -144,7 +142,7 @@ public:
         horizontalLayout_2->addWidget(lblStatus);
 
 
-        verticalLayout->addLayout(horizontalLayout_2);
+        gridLayout->addLayout(horizontalLayout_2, 2, 0, 1, 1);
 
         horizontalLayout_3 = new QHBoxLayout();
         horizontalLayout_3->setObjectName("horizontalLayout_3");
@@ -159,7 +157,7 @@ public:
         horizontalLayout_3->addWidget(lblSaldo);
 
 
-        verticalLayout->addLayout(horizontalLayout_3);
+        gridLayout->addLayout(horizontalLayout_3, 3, 0, 1, 1);
 
         tableItens = new QTableWidget(PedidoWindow);
         if (tableItens->columnCount() < 3)
@@ -199,7 +197,7 @@ public:
         tableItens->verticalHeader()->setDefaultSectionSize(32);
         tableItens->verticalHeader()->setProperty("showSortIndicator", QVariant(false));
 
-        verticalLayout->addWidget(tableItens);
+        gridLayout->addWidget(tableItens, 4, 0, 1, 1);
 
         horizontalLayout_4 = new QHBoxLayout();
         horizontalLayout_4->setObjectName("horizontalLayout_4");
@@ -239,13 +237,31 @@ public:
 
         horizontalLayout_4->addWidget(btnReservar);
 
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
-        verticalLayout->addLayout(horizontalLayout_4);
+        horizontalLayout_4->addItem(horizontalSpacer);
+
+        btnVoltar = new QPushButton(PedidoWindow);
+        btnVoltar->setObjectName("btnVoltar");
+        sizePolicy2.setHeightForWidth(btnVoltar->sizePolicy().hasHeightForWidth());
+        btnVoltar->setSizePolicy(sizePolicy2);
+        btnVoltar->setMaximumSize(QSize(167, 16777215));
+        btnVoltar->setFont(font3);
+        btnVoltar->setLayoutDirection(Qt::LayoutDirection::RightToLeft);
+        btnVoltar->setAutoFillBackground(false);
+        btnVoltar->setAutoRepeatDelay(300);
+        btnVoltar->setAutoDefault(false);
+
+        horizontalLayout_4->addWidget(btnVoltar);
+
+
+        gridLayout->addLayout(horizontalLayout_4, 5, 0, 1, 1);
 
 
         retranslateUi(PedidoWindow);
 
         btnReservar->setDefault(false);
+        btnVoltar->setDefault(false);
 
 
         QMetaObject::connectSlotsByName(PedidoWindow);
@@ -256,12 +272,6 @@ public:
         PedidoWindow->setWindowTitle(QCoreApplication::translate("PedidoWindow", "Form", nullptr));
         Cliente->setText(QCoreApplication::translate("PedidoWindow", "Cliente", nullptr));
         txtproduto_2->setText(QCoreApplication::translate("PedidoWindow", "Produto", nullptr));
-        comboProduto->setItemText(0, QCoreApplication::translate("PedidoWindow", "Capacete", nullptr));
-        comboProduto->setItemText(1, QCoreApplication::translate("PedidoWindow", "Luva", nullptr));
-        comboProduto->setItemText(2, QCoreApplication::translate("PedidoWindow", "Botina", nullptr));
-        comboProduto->setItemText(3, QCoreApplication::translate("PedidoWindow", "\303\223culos de Prote\303\247\303\243o", nullptr));
-        comboProduto->setItemText(4, QCoreApplication::translate("PedidoWindow", "M\303\241scara PFF2", nullptr));
-
         txtquantidade_2->setText(QCoreApplication::translate("PedidoWindow", "Quantidade", nullptr));
         lblTitulo->setText(QCoreApplication::translate("PedidoWindow", "Registrar Pedido", nullptr));
         btnVerificar->setText(QCoreApplication::translate("PedidoWindow", "Verificar Saldo", nullptr));
@@ -278,6 +288,7 @@ public:
         ___qtablewidgetitem2->setText(QCoreApplication::translate("PedidoWindow", "Situa\303\247\303\243o", nullptr));
         btnRemover->setText(QCoreApplication::translate("PedidoWindow", "Remover Item", nullptr));
         btnReservar->setText(QCoreApplication::translate("PedidoWindow", "Confirmar Reserva", nullptr));
+        btnVoltar->setText(QCoreApplication::translate("PedidoWindow", "Voltar", nullptr));
     } // retranslateUi
 
 };

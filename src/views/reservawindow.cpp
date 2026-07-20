@@ -5,10 +5,14 @@
 #include <QTableWidgetItem>
 
 ReservaWindow::ReservaWindow(IPedidoService *pedidoService,
+                             IEstoqueService *estoqueService,
+                             PedidoWindow *pedidoWindow,
                              QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::ReservaWindow)
     , pedidoService(pedidoService)
+    , estoqueService(estoqueService)
+    , pedidoWindow(pedidoWindow)
 {
     ui->setupUi(this);
 
@@ -62,10 +66,10 @@ void ReservaWindow::atualizarTabela()
 
 void ReservaWindow::on_btnVoltar_clicked()
 {
-    PedidoWindow *janela =
-        new PedidoWindow(pedidoService);
+    if (pedidoWindow)
+    {
+        pedidoWindow->show();
+    }
 
-    janela->show();
-
-    close();
+    deleteLater();
 }

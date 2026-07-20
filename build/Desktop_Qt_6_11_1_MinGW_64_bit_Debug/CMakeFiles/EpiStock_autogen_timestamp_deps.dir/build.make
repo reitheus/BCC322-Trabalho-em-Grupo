@@ -52,10 +52,10 @@ RM = C:\Qt2\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\EpiStock
+CMAKE_SOURCE_DIR = C:\Epistock2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug
+CMAKE_BINARY_DIR = C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug
 
 # Utility rule file for EpiStock_autogen_timestamp_deps.
 
@@ -77,6 +77,6 @@ CMakeFiles/EpiStock_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/EpiStock_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/EpiStock_autogen_timestamp_deps.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\EpiStock C:\EpiStock C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\EpiStock\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\EpiStock_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Epistock2 C:\Epistock2 C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\Epistock2\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\EpiStock_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/EpiStock_autogen_timestamp_deps.dir/depend
 

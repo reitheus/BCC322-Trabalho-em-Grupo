@@ -1,14 +1,17 @@
 #include "loginwindow.h"
 #include "ui_loginwindow.h"
 
+
 #include "mainwindow.h"
 #include <QMessageBox>
 
 LoginWindow::LoginWindow(IPedidoService *pedidoService,
+                         IEstoqueService *estoqueService,
                          QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::LoginWindow)
     , pedidoService(pedidoService)
+    , estoqueService(estoqueService)
 {
     ui->setupUi(this);
 }
@@ -24,7 +27,9 @@ void LoginWindow::on_btnEntrar_clicked()
 
     if (usuario == "admin" && senha == "123")
     {
-        MainWindow *menu = new MainWindow(pedidoService);
+        MainWindow *menu = new MainWindow(
+            pedidoService,
+            estoqueService);
         menu->show();
 
         this->close();

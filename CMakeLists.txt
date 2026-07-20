@@ -29,9 +29,14 @@ set(PROJECT_SOURCES
     src/views/pedidowindow.h
     src/views/pedidowindow.ui
 
+    src/views/estoquewindow.cpp
+    src/views/estoquewindow.h
+    src/views/estoquewindow.ui
 
 
     src/views/reservawindow.ui
+    src/views/reservawindow.cpp
+    src/views/reservawindow.h
 
     src/models/produto.cpp
     src/models/produto.h
@@ -51,16 +56,14 @@ set(PROJECT_SOURCES
     src/interfaces/IPedidoService.h
     src/interfaces/IEstoqueService.h
 
+
     ${TS_FILES}
 )
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(EpiStock
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-
-        src/views/reservawindow.h
-        src/views/reservawindow.cpp
-
+        src/views/cadastroprodutowindow.h src/views/cadastroprodutowindow.cpp src/views/cadastroprodutowindow.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET EpiStock APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
