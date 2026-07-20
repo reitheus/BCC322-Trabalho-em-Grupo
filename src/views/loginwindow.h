@@ -1,6 +1,7 @@
 #ifndef LOGINWINDOW_H
 #define LOGINWINDOW_H
 #include "IPedidoService.h"
+#include "IEstoqueService.h"
 #include <QWidget>
 
 namespace Ui {
@@ -13,6 +14,7 @@ class LoginWindow : public QWidget
 
 public:
     explicit LoginWindow(IPedidoService *pedidoService,
+                         IEstoqueService *estoqueService,
                          QWidget *parent = nullptr);
     ~LoginWindow();
 
@@ -21,6 +23,7 @@ private slots:
 private:
     Ui::LoginWindow *ui;
     IPedidoService *pedidoService;
+    IEstoqueService *estoqueService;
 };
 
 #endif // LOGINWINDOW_H

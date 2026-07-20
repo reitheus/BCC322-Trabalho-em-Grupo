@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 #include "IPedidoService.h"
+#include "IEstoqueService.h"
 #include <QMainWindow>
 
 
@@ -16,12 +17,15 @@ class MainWindow : public QMainWindow
 
 public:
     explicit MainWindow(IPedidoService *pedidoService,
+                        IEstoqueService *estoqueService,
                         QWidget *parent = nullptr);
     ~MainWindow() override;
 private slots:
     void on_btnPedido_clicked();
+    void on_btnGerenciarEstoque_clicked();
 private:
     Ui::MainWindow *ui;
     IPedidoService *pedidoService;
+    IEstoqueService *estoqueService;
 };
 #endif // MAINWINDOW_H

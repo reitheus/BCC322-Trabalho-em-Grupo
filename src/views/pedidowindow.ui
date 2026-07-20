@@ -13,8 +13,8 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout">
-   <item>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
     <layout class="QFormLayout" name="formLayout">
      <item row="1" column="0">
       <widget class="QLabel" name="Cliente">
@@ -34,33 +34,7 @@
       </widget>
      </item>
      <item row="3" column="1">
-      <widget class="QComboBox" name="comboProduto">
-       <item>
-        <property name="text">
-         <string>Capacete</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Luva</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Botina</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Óculos de Proteção</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Máscara PFF2</string>
-        </property>
-       </item>
-      </widget>
+      <widget class="QComboBox" name="comboProduto"/>
      </item>
      <item row="5" column="0">
       <widget class="QLabel" name="txtquantidade_2">
@@ -97,7 +71,7 @@
      </item>
     </layout>
    </item>
-   <item>
+   <item row="1" column="0">
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QPushButton" name="btnVerificar">
@@ -137,7 +111,7 @@
      </item>
     </layout>
    </item>
-   <item>
+   <item row="2" column="0">
     <layout class="QHBoxLayout" name="horizontalLayout_2">
      <item>
       <widget class="QLabel" name="status">
@@ -155,7 +129,7 @@
      </item>
     </layout>
    </item>
-   <item>
+   <item row="3" column="0">
     <layout class="QHBoxLayout" name="horizontalLayout_3">
      <item>
       <widget class="QLabel" name="saldo">
@@ -173,7 +147,7 @@
      </item>
     </layout>
    </item>
-   <item>
+   <item row="4" column="0">
     <widget class="QTableWidget" name="tableItens">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -267,7 +241,7 @@
      </column>
     </widget>
    </item>
-   <item>
+   <item row="5" column="0">
     <layout class="QHBoxLayout" name="horizontalLayout_4">
      <item>
       <widget class="QPushButton" name="btnRemover">
@@ -324,6 +298,62 @@
        </property>
        <property name="text">
         <string>Confirmar Reserva</string>
+       </property>
+       <property name="autoRepeatDelay">
+        <number>300</number>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnVoltar">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>167</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>12</pointsize>
+         <kerning>true</kerning>
+         <hintingpreference>PreferDefaultHinting</hintingpreference>
+         <fontweight>Medium</fontweight>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LayoutDirection::RightToLeft</enum>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Voltar</string>
        </property>
        <property name="autoRepeatDelay">
         <number>300</number>

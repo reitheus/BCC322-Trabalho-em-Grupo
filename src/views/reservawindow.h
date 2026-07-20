@@ -1,10 +1,14 @@
 #ifndef RESERVAWINDOW_H
 #define RESERVAWINDOW_H
+
 #include "IPedidoService.h"
+#include "IEstoqueService.h"
 
 #include <QWidget>
-namespace Ui
-{
+
+class PedidoWindow;
+
+namespace Ui {
 class ReservaWindow;
 }
 
@@ -14,6 +18,8 @@ class ReservaWindow : public QWidget
 
 public:
     explicit ReservaWindow(IPedidoService *pedidoService,
+                           IEstoqueService *estoqueService,
+                           PedidoWindow *pedidoWindow,
                            QWidget *parent = nullptr);
 
     ~ReservaWindow();
@@ -27,6 +33,8 @@ private:
     Ui::ReservaWindow *ui;
 
     IPedidoService *pedidoService;
+    IEstoqueService *estoqueService;
+    PedidoWindow *pedidoWindow;
 };
 
-#endif // RESERVAWINDOW_H
+#endif
