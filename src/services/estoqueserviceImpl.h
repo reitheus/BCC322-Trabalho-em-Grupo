@@ -29,6 +29,8 @@ public:
 private:
 
     void inicializarEstoque();
+    void carregarDados();
+    void salvarDados() const;
 
     Produto *buscarProduto(
         const QString &produto);

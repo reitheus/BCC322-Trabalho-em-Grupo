@@ -3,17 +3,28 @@
 #include "estoquewindow.h"
 #include <QDebug>
 #include "pedidowindow.h"
+#include "funcionarioswindow.h"
+#include "importacaoxmlwindow.h"
 #include <QMessageBox>
+#include <QApplication>
 
 MainWindow::MainWindow(IPedidoService *pedidoService,
                        IEstoqueService *estoqueService,
+                       IUsuarioService *usuarioService,
+                       const Usuario &usuarioAutenticado,
                        QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
     , pedidoService(pedidoService)
     , estoqueService(estoqueService)
+    , usuarioService(usuarioService)
+    , usuarioAutenticado(usuarioAutenticado)
 {
     ui->setupUi(this);
+    ui->lblBemVindo->setText("Olá, " + usuarioAutenticado.nome() + "!");
+    const bool administrador = usuarioAutenticado.perfil() == "Administrador";
+    ui->btnGerenciarFuncionarios->setVisible(administrador);
+    ui->btnImportarXml->setVisible(administrador || usuarioAutenticado.perfil() == "Logístico");
 }
 
 MainWindow::~MainWindow()
@@ -36,4 +47,18 @@ void MainWindow::on_btnGerenciarEstoque_clicked()
 {
     EstoqueWindow janela(estoqueService, this);
     janela.exec();
+}
+void MainWindow::on_btnGerenciarFuncionarios_clicked()
+{
+    FuncionariosWindow janela(usuarioService, this);
+    janela.exec();
+}
+void MainWindow::on_btnImportarXml_clicked()
+{
+    ImportacaoXmlWindow janela(estoqueService, this);
+    janela.exec();
+}
+void MainWindow::on_btnSairw_clicked()
+{
+    QApplication::quit();
 }
