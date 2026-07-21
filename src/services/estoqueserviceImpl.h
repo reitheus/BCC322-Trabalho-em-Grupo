@@ -17,14 +17,20 @@ public:
     EstoqueServiceImpl();
 
     int verificarSaldo(const QString &produto) override;
-
+    QList<Produto> listarProdutos() const override;
     ResultadoReserva reservarEstoque(
         const QString &produto,
         int quantidade) override;
+    bool adicionarEstoque(const QString &produto,
+                          int quantidade) override;
+    bool cadastrarProduto(const QString &nome,
+                          int quantidade) override;
 
 private:
 
     void inicializarEstoque();
+    void carregarDados();
+    void salvarDados() const;
 
     Produto *buscarProduto(
         const QString &produto);

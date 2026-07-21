@@ -2,13 +2,17 @@
 #include "EstoqueServiceImpl.h"
 #include "PedidoServiceImpl.h"
 #include "loginwindow.h"
+#include "UsuarioServiceImpl.h"
 
 #include <QApplication>
+#include <QCoreApplication>
 #include <QLocale>
 #include <QTranslator>
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+    QCoreApplication::setOrganizationName("EpiStock");
+    QCoreApplication::setApplicationName("EpiStock");
 
     QTranslator translator;
     const QStringList uiLanguages = QLocale::system().uiLanguages();
@@ -20,10 +24,11 @@ int main(int argc, char *argv[])
         }
     }
     IEstoqueService *estoqueService = new EstoqueServiceImpl();
+    IUsuarioService *usuarioService = new UsuarioServiceImpl();
 
     IPedidoService *pedidoService =
         new PedidoServiceImpl(estoqueService);
-    LoginWindow w(pedidoService);
+    LoginWindow w(pedidoService, estoqueService, usuarioService);
     w.show();
     return QApplication::exec();
 }

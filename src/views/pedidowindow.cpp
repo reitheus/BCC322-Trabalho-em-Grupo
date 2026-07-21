@@ -5,21 +5,33 @@
 #include "reservawindow.h"
 #include <QMessageBox>
 #include <QHeaderView>
+#include <QDebug>
+#include "mainwindow.h"
 
 PedidoWindow::PedidoWindow(IPedidoService *pedidoService,
+                           IEstoqueService *estoqueService,
+                           MainWindow *mainWindow,
                            QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::PedidoWindow)
     , pedidoService(pedidoService)
+    , estoqueService(estoqueService)
+    , mainWindow(mainWindow)
 {
     ui->setupUi(this);
 
     ui->tableItens->horizontalHeader()->setStretchLastSection(true);
     ui->tableItens->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+
+    QList<Produto> produtos = estoqueService->listarProdutos();
+
+    for (const Produto &produto : produtos)
+    {
+        ui->comboProduto->addItem(produto.getNome());
+    }
 }
 PedidoWindow::~PedidoWindow()
 {
-    delete pedidoService;
     delete ui;
 }
 void PedidoWindow::on_btnVerificar_clicked()
@@ -80,56 +92,50 @@ void PedidoWindow::on_btnAdicionar_clicked()
 }
 void PedidoWindow::on_btnReservar_clicked()
 {
-    if(ui->tableItens->rowCount() == 0)
+    if (ui->tableItens->rowCount() == 0)
     {
         QMessageBox::warning(this,
                              "Aviso",
                              "Nenhum item foi adicionado ao pedido.");
-
         return;
     }
+
     IPedidoService::ResultadoRegistro resultado =
         pedidoService->reservarPedidos();
+
     switch (resultado)
     {
     case IPedidoService::ResultadoRegistro::Sucesso:
-
-        QMessageBox::information(
-            this,
-            "Reserva",
-            "Pedidos reservados com sucesso.");
-
+        QMessageBox::information(this,
+                                 "Reserva",
+                                 "Pedidos reservados com sucesso.");
         atualizarTabela();
-
         break;
 
     case IPedidoService::ResultadoRegistro::EstoqueInsuficiente:
-
-        QMessageBox::warning(
-            this,
-            "Reserva",
-            "Não foi possível reservar todos os itens.");
-
+        QMessageBox::warning(this,
+                             "Reserva",
+                             "Não foi possível reservar todos os itens.");
         break;
 
     default:
-
-        QMessageBox::warning(
-            this,
-            "Reserva",
-            "Ocorreu um erro ao reservar.");
-
+        QMessageBox::warning(this,
+                             "Reserva",
+                             "Ocorreu um erro ao reservar.");
         break;
     }
 
-    if(resultado == IPedidoService::ResultadoRegistro::Sucesso)
+    if (resultado == IPedidoService::ResultadoRegistro::Sucesso)
     {
+        hide();
+
         ReservaWindow *janela =
-            new ReservaWindow(pedidoService);
+            new ReservaWindow(
+                pedidoService,
+                estoqueService,
+                this);
 
         janela->show();
-
-        close();
     }
 }
 void PedidoWindow::atualizarTabela()
@@ -179,4 +185,11 @@ void PedidoWindow::on_btnRemover_clicked()
     {
         atualizarTabela();
     }
+}
+void PedidoWindow::on_btnVoltar_clicked()
+{
+    if (mainWindow)
+        mainWindow->show();
+
+    close();
 }
