@@ -9,8 +9,8 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools Test)
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools Test)
 
 set(TS_FILES EpiStock_pt_BR.ts)
 
@@ -28,6 +28,19 @@ set(PROJECT_SOURCES
     src/views/pedidowindow.cpp
     src/views/pedidowindow.h
     src/views/pedidowindow.ui
+
+    src/views/estoquewindow.cpp
+    src/views/estoquewindow.h
+    src/views/estoquewindow.ui
+    src/views/cadastroprodutowindow.cpp
+    src/views/cadastroprodutowindow.h
+    src/views/cadastroprodutowindow.ui
+    src/views/usuariodialog.cpp
+    src/views/usuariodialog.h
+    src/views/funcionarioswindow.cpp
+    src/views/funcionarioswindow.h
+    src/views/importacaoxmlwindow.cpp
+    src/views/importacaoxmlwindow.h
 
 
 
@@ -48,8 +61,12 @@ set(PROJECT_SOURCES
     src/services/pedidoserviceImpl.cpp
     src/services/pedidoserviceImpl.h
 
+    src/services/UsuarioServiceImpl.cpp
+    src/services/UsuarioServiceImpl.h
+
     src/interfaces/IPedidoService.h
     src/interfaces/IEstoqueService.h
+    src/interfaces/IUsuarioService.h
 
     ${TS_FILES}
 )
@@ -116,3 +133,28 @@ install(TARGETS EpiStock
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(EpiStock)
 endif()
+
+enable_testing()
+
+add_executable(test_novas_funcionalidades_unitario
+    tests/unit/test_novas_funcionalidades_unitario.cpp
+    src/models/usuario.cpp src/models/usuario.h
+    src/models/produto.cpp src/models/produto.h
+    src/services/UsuarioServiceImpl.cpp src/services/UsuarioServiceImpl.h
+    src/services/estoqueserviceImpl.cpp src/services/estoqueserviceImpl.h
+    src/interfaces/IUsuarioService.h src/interfaces/IEstoqueService.h
+)
+target_link_libraries(test_novas_funcionalidades_unitario PRIVATE Qt${QT_VERSION_MAJOR}::Test)
+target_include_directories(test_novas_funcionalidades_unitario PRIVATE src/models src/services src/interfaces)
+add_test(NAME novas_funcionalidades_unitario COMMAND test_novas_funcionalidades_unitario)
+
+add_executable(test_novas_funcionalidades_funcional
+    tests/functional/test_novas_funcionalidades_funcional.cpp
+    src/views/importacaoxmlwindow.cpp src/views/importacaoxmlwindow.h
+    src/models/produto.cpp src/models/produto.h
+    src/services/estoqueserviceImpl.cpp src/services/estoqueserviceImpl.h
+    src/interfaces/IEstoqueService.h
+)
+target_link_libraries(test_novas_funcionalidades_funcional PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Test)
+target_include_directories(test_novas_funcionalidades_funcional PRIVATE src/models src/services src/interfaces src/views)
+add_test(NAME novas_funcionalidades_funcional COMMAND test_novas_funcionalidades_funcional)

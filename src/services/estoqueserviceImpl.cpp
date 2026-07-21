@@ -1,12 +1,45 @@
 
 #include "EstoqueServiceImpl.h"
+#include <QSettings>
 using ResultadoReserva = IEstoqueService::ResultadoReserva;
 
 
 
 EstoqueServiceImpl::EstoqueServiceImpl()
 {
-    inicializarEstoque();
+    carregarDados();
+    if (estoque.isEmpty()) {
+        inicializarEstoque();
+        salvarDados();
+    }
+}
+
+void EstoqueServiceImpl::carregarDados()
+{
+    QSettings configuracao;
+    const int total = configuracao.beginReadArray("estoque");
+    for (int i = 0; i < total; ++i) {
+        configuracao.setArrayIndex(i);
+        const QString nome = configuracao.value("nome").toString();
+        const int quantidade = configuracao.value("quantidade").toInt();
+        if (!nome.trimmed().isEmpty() && quantidade >= 0)
+            estoque.append(Produto(nome, quantidade));
+    }
+    configuracao.endArray();
+}
+
+void EstoqueServiceImpl::salvarDados() const
+{
+    QSettings configuracao;
+    configuracao.remove("estoque");
+    configuracao.beginWriteArray("estoque");
+    for (int i = 0; i < estoque.size(); ++i) {
+        configuracao.setArrayIndex(i);
+        configuracao.setValue("nome", estoque.at(i).getNome());
+        configuracao.setValue("quantidade", estoque.at(i).getQuantidade());
+    }
+    configuracao.endArray();
+    configuracao.sync();
 }
 void EstoqueServiceImpl::inicializarEstoque()
 {
@@ -60,6 +93,7 @@ EstoqueServiceImpl::reservarEstoque(
 
     p->setQuantidade(
         p->getQuantidade() - quantidade);
+    salvarDados();
 
     return ResultadoReserva::Sucesso;
 }
@@ -77,6 +111,7 @@ bool EstoqueServiceImpl::adicionarEstoque(
 
     p->setQuantidade(
         p->getQuantidade() + quantidade);
+    salvarDados();
 
     return true;
 }
@@ -97,6 +132,7 @@ bool EstoqueServiceImpl::cadastrarProduto(const QString &nome,
         return false;
 
     estoque.append(Produto(nome, quantidade));
+    salvarDados();
 
     return true;
 }
