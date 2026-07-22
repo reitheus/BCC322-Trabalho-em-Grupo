@@ -95,6 +95,32 @@
           <item>
            <layout class="QVBoxLayout" name="verticalLayout">
             <item>
+             <widget class="QPushButton" name="btnClientes">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="text">
+               <string>Clientes</string>
+              </property>
+              <property name="autoDefault">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Orientation::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
              <widget class="QPushButton" name="btnPedido">
               <property name="font">
                <font>
@@ -165,7 +191,9 @@
             <item>
              <widget class="QPushButton" name="btnImportarXml">
               <property name="font">
-               <font><pointsize>12</pointsize></font>
+               <font>
+                <pointsize>12</pointsize>
+               </font>
               </property>
               <property name="text">
                <string>Importar NF-e (XML)</string>
@@ -174,15 +202,26 @@
             </item>
             <item>
              <spacer name="verticalSpacerImportar">
-              <property name="orientation"><enum>Qt::Orientation::Vertical</enum></property>
-              <property name="sizeType"><enum>QSizePolicy::Policy::Fixed</enum></property>
-              <property name="sizeHint" stdset="0"><size><width>20</width><height>20</height></size></property>
+              <property name="orientation">
+               <enum>Qt::Orientation::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Policy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
              </spacer>
             </item>
             <item>
              <widget class="QPushButton" name="btnGerenciarFuncionarios">
               <property name="font">
-               <font><pointsize>12</pointsize></font>
+               <font>
+                <pointsize>12</pointsize>
+               </font>
               </property>
               <property name="text">
                <string>Gerenciar Funcionários</string>
@@ -191,9 +230,18 @@
             </item>
             <item>
              <spacer name="verticalSpacerFuncionarios">
-              <property name="orientation"><enum>Qt::Orientation::Vertical</enum></property>
-              <property name="sizeType"><enum>QSizePolicy::Policy::Fixed</enum></property>
-              <property name="sizeHint" stdset="0"><size><width>20</width><height>20</height></size></property>
+              <property name="orientation">
+               <enum>Qt::Orientation::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Policy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
              </spacer>
             </item>
             <item>
